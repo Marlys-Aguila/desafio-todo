@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    height: 100vh;
+    padding: 4rem 6rem;
+    background-color: #ececec;
+}
+
+h3 {
+    font-weight: 500;
+    padding-bottom: 0.5rem;
+}
+
+input[type="text"] {
+    font-size: 1rem;
+    height: 2.5rem;
+    width: 85%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    padding-left: 0.5rem;
+}
+
+input[type="text"]:focus {
+    outline: none;
+}
+
+input[type="submit"] {
+    height: 2.5rem;
+    width: 5rem;
+    font-size: 1.1rem;
+    width: 13%;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    border: none;
+    margin-left: 5px;
+    background-color: #1a7742;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    background-color: #2d945a;
+    outline: none;
+}
+
+.tareas-agregadas {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding-top: 1rem;
+}
+
+span.stats {
+    font-weight: 700;
+}
+
+.align-center {
+    text-align: center;
+}
+
+img {
+    cursor: pointer;
+}
+
+th {
+    text-align: start;
+}
+
+th,
+td,
+#stats {
+    padding: 0 0.5rem 0.5rem 0.5rem;
+}
